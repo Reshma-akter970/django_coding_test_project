@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.views.decorators.cache import never_cache
 from django.views.static import serve
-
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from config import settings
 
 urlpatterns = [
